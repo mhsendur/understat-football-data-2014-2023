@@ -17,6 +17,28 @@ The data in this repository was collected from the following sources:
 
 The data scraping and collection process were performed using Python. The script retrieves team-level data for each season, including statistics, and saves it as CSV files. The data is organised by league, season, and team.
 
+The script retrieves team-level data for each season, including the following attributes:
+
+    h_a: Home or Away indicator
+    xG: Expected Goals
+    xGA: Expected Goals Allowed
+    npxG: Non-Penalty Expected Goals
+    npxGA: Non-Penalty Expected Goals Allowed
+    ppda: Passes Allowed per Defensive Action
+    ppda_allowed: Passes Allowed per Defensive Action Allowed
+    deep: Deep Passes
+    deep_allowed: Deep Passes Allowed
+    scored: Goals Scored
+    missed: Goals Missed
+    xpts: Expected Points
+    result: Match Result
+    date: Match Date
+    wins: Total Wins
+    draws: Total Draws
+    loses: Total Losses
+    pts: Total Points
+    npxGD: Non-Penalty Expected Goal Difference
+
 ## Repository Structure
 
 The repository is structured as follows:
